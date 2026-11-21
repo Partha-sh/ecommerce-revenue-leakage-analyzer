@@ -1,0 +1,8 @@
+source_row_number,rejection_reasons,delivery_id,order_id,shipped_date,promised_date,delivered_date,region
+4173,missing_or_unmatched_order,D0004172,O9999998,2025-03-01,2025-03-05,2025-03-08,Unknown
+4174,exact_duplicate_copy,D0002280,O0003299,2025-02-01,2025-02-05,2025-02-05,Central
+4175,exact_duplicate_copy,D0000026,O0000041,2025-12-26,2025-12-30,2025-12-30,Central
+4176,exact_duplicate_copy,D0002383,O0003439,2024-05-05,2024-05-08,2024-05-12,Central
+4177,exact_duplicate_copy,D0000530,O0000786,2025-12-19,2025-12-22,2025-12-27,North
+4178,exact_duplicate_copy,D0003888,O0005598,2025-10-18,2025-10-23,2025-10-22,North
+4179,exact_duplicate_copy,D0002759,O0003948,2024-05-08,2024-05-13,2024-05-15,Central

@@ -1,0 +1,88 @@
+source_row_number,rejection_reasons,order_id,customer_id,order_date,status,payment_method,discount_code
+212,missing_or_unmatched_customer,O0000211,C99999,2025-12-03,cancelled,Cash on Delivery,
+264,missing_or_unmatched_customer,O0000263,,2025-02-20,refunded,Net Banking,
+308,unknown_order_status,O0000307,C00017,2025-07-05,mystery_status,Cash on Delivery,
+423,missing_or_unmatched_customer,O0000422,C99999,2025-04-07,Canceled,Cash on Delivery,SAVE13
+527,missing_or_unmatched_customer,O0000526,,2025-04-08,Canceled,Card,
+615,unknown_order_status,O0000614,C00694,2024-02-11,mystery_status,Card,SAVE03
+634,missing_or_unmatched_customer,O0000633,C99999,2024-03-23,cancelled,Cash on Delivery,
+790,missing_or_unmatched_customer,O0000789,,2024-08-17,processing,Net Banking,SAVE01
+845,missing_or_unmatched_customer,O0000844,C99999,2025-12-03,Canceled,Wallet,SAVE10
+922,unknown_order_status,O0000921,C01360,2024-05-14,mystery_status,Wallet,
+998,invalid_order_date,O0000997,C00715,not-a-date,completed,UPI,SAVE10
+1053,missing_or_unmatched_customer,O0001052,,2024-04-23,completed,Wallet,
+1056,missing_or_unmatched_customer,O0001055,C99999,2025-12-17,Canceled,Cash on Delivery,
+1229,unknown_order_status,O0001228,C01307,2024-09-11,mystery_status,Net Banking,
+1267,missing_or_unmatched_customer,O0001266,C99999,2025-07-12,cancelled,Cash on Delivery,SAVE14
+1316,missing_or_unmatched_customer,O0001315,,2024-05-28,refunded,Card,
+1478,missing_or_unmatched_customer,O0001477,C99999,2025-04-11,Complete,Card,SAVE12
+1536,unknown_order_status,O0001535,C00601,2024-09-24,mystery_status,Cash on Delivery,
+1579,missing_or_unmatched_customer,O0001578,,2025-07-08,Canceled,Net Banking,
+1689,missing_or_unmatched_customer,O0001688,C99999,2025-03-25,processing,Card,SAVE04
+1842,missing_or_unmatched_customer,O0001841,,2024-05-28,shipped,UPI,
+1843,unknown_order_status,O0001842,C01062,2025-07-20,mystery_status,Cash on Delivery,
+1900,missing_or_unmatched_customer,O0001899,C99999,2025-12-27,Complete,Net Banking,
+1995,invalid_order_date,O0001994,C01212,not-a-date,refunded,Wallet,SAVE12
+2105,missing_or_unmatched_customer,O0002104,,2025-09-29,refunded,Net Banking,
+2111,missing_or_unmatched_customer,O0002110,C99999,2025-03-13,Complete,UPI,
+2150,unknown_order_status,O0002149,C01224,2025-06-12,mystery_status,UPI,
+2322,missing_or_unmatched_customer,O0002321,C99999,2025-12-27,refunded,Cash on Delivery,
+2368,missing_or_unmatched_customer,O0002367,,2024-08-03,refunded,Net Banking,SAVE08
+2457,unknown_order_status,O0002456,C01246,2025-07-03,mystery_status,Cash on Delivery,SAVE05
+2533,missing_or_unmatched_customer,O0002532,C99999,2024-05-24,shipped,Cash on Delivery,
+2631,missing_or_unmatched_customer,O0002630,,2025-10-26,processing,UPI,
+2744,missing_or_unmatched_customer,O0002743,C99999,2024-03-04,cancelled,Cash on Delivery,SAVE12
+2764,unknown_order_status,O0002763,C00117,2024-02-25,mystery_status,UPI,
+2894,missing_or_unmatched_customer,O0002893,,2024-10-18,completed,Wallet,
+2955,missing_or_unmatched_customer,O0002954,C99999,2025-07-09,cancelled,Net Banking,
+2992,invalid_order_date,O0002991,C01178,not-a-date,shipped,Cash on Delivery,SAVE14
+3071,unknown_order_status,O0003070,C00281,2025-10-09,mystery_status,Net Banking,SAVE09
+3157,missing_or_unmatched_customer,O0003156,,2024-08-22,completed,UPI,SAVE14
+3166,missing_or_unmatched_customer,O0003165,C99999,2024-11-27,cancelled,Cash on Delivery,
+3377,missing_or_unmatched_customer,O0003376,C99999,2025-06-19,processing,UPI,
+3378,unknown_order_status,O0003377,C00115,2025-04-07,mystery_status,Cash on Delivery,
+3420,missing_or_unmatched_customer,O0003419,,2024-04-15,refunded,Card,
+3588,missing_or_unmatched_customer,O0003587,C99999,2025-05-09,refunded,Wallet,SAVE09
+3683,missing_or_unmatched_customer,O0003682,,2024-11-29,processing,UPI,
+3685,unknown_order_status,O0003684,C01445,2025-01-14,mystery_status,Cash on Delivery,
+3799,missing_or_unmatched_customer,O0003798,C99999,2025-12-10,refunded,Card,SAVE08
+3946,missing_or_unmatched_customer,O0003945,,2024-01-03,shipped,Wallet,
+3989,invalid_order_date,O0003988,C01090,not-a-date,refunded,Net Banking,
+3992,unknown_order_status,O0003991,C00845,2024-07-22,mystery_status,UPI,
+4010,missing_or_unmatched_customer,O0004009,C99999,2024-03-30,refunded,Net Banking,
+4209,missing_or_unmatched_customer,O0004208,,2024-07-17,Complete,Cash on Delivery,SAVE12
+4221,missing_or_unmatched_customer,O0004220,C99999,2024-07-14,processing,Cash on Delivery,SAVE12
+4299,unknown_order_status,O0004298,C01325,2025-12-06,mystery_status,Card,
+4432,missing_or_unmatched_customer,O0004431,C99999,2024-05-07,processing,UPI,
+4472,missing_or_unmatched_customer,O0004471,,2024-03-12,Canceled,Cash on Delivery,
+4606,unknown_order_status,O0004605,C01393,2025-12-24,mystery_status,Wallet,
+4643,missing_or_unmatched_customer,O0004642,C99999,2024-11-07,Complete,Cash on Delivery,SAVE05
+4735,missing_or_unmatched_customer,O0004734,,2025-04-27,Canceled,Net Banking,SAVE08
+4854,missing_or_unmatched_customer,O0004853,C99999,2024-08-22,completed,Card,SAVE13
+4913,unknown_order_status,O0004912,C00033,2025-07-03,mystery_status,Wallet,
+4986,invalid_order_date,O0004985,C00469,not-a-date,completed,Net Banking,
+4998,missing_or_unmatched_customer,O0004997,,2024-04-13,shipped,Cash on Delivery,
+5065,missing_or_unmatched_customer,O0005064,C99999,2025-02-04,processing,Wallet,
+5220,unknown_order_status,O0005219,C00594,2025-01-05,mystery_status,Card,SAVE08
+5261,missing_or_unmatched_customer,O0005260,,2024-04-03,completed,Wallet,SAVE13
+5276,missing_or_unmatched_customer,O0005275,C99999,2025-03-09,Canceled,Wallet,SAVE06
+5487,missing_or_unmatched_customer,O0005486,C99999,2024-12-13,processing,UPI,SAVE12
+5524,missing_or_unmatched_customer,O0005523,,2024-03-16,refunded,Cash on Delivery,
+5527,unknown_order_status,O0005526,C00395,2024-02-23,mystery_status,Cash on Delivery,
+5698,missing_or_unmatched_customer,O0005697,C99999,2025-11-23,cancelled,Net Banking,
+5787,missing_or_unmatched_customer,O0005786,,2025-01-13,shipped,Net Banking,
+5834,unknown_order_status,O0005833,C00272,2024-03-03,mystery_status,Net Banking,
+5909,missing_or_unmatched_customer,O0005908,C99999,2025-05-02,processing,Cash on Delivery,SAVE09
+5983,invalid_order_date,O0005982,C01326,not-a-date,refunded,Cash on Delivery,SAVE13
+6002,exact_duplicate_copy,O0000284,C01298,2024-05-10,Canceled,Net Banking,SAVE03
+6003,exact_duplicate_copy,O0003887,C01405,2025-10-04,processing,Wallet,
+6004,exact_duplicate_copy,O0004835,C00508,2025-01-18,processing,Cash on Delivery,SAVE08
+6005,missing_or_unmatched_customer;exact_duplicate_copy,O0002630,,2025-10-26,processing,UPI,
+6006,exact_duplicate_copy,O0004993,C00923,2024-01-26,cancelled,Cash on Delivery,
+6007,exact_duplicate_copy,O0003825,C00266,2025-05-03,Canceled,UPI,SAVE01
+6008,exact_duplicate_copy,O0004243,C00246,2025-08-08,Canceled,Card,
+6009,exact_duplicate_copy,O0005363,C00411,16/03/2024,Canceled,Wallet,SAVE06
+6010,exact_duplicate_copy,O0003260,C00265,2025-09-17,shipped,Net Banking,
+6011,exact_duplicate_copy,O0000344,C00477,2024-03-15,refunded,Cash on Delivery,
+6012,exact_duplicate_copy,O0004662,C00422,2024-08-02,cancelled,Wallet,SAVE04
+6013,exact_duplicate_copy,O0003405,C00314,2024-11-16,refunded,UPI,

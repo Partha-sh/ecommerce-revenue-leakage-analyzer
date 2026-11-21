@@ -1,0 +1,80 @@
+refund_id,order_id,refund_date,refund_amount,reason,source_row_number,rejection_reason,source_dataset,_parsed_refund_date
+R0000255,O0002596,2025-06-25,30787.30,Changed mind,577,exact_duplicate_copy,refunds,
+R0000020,O0000151,2024-09-30,20989.99,Late delivery,578,exact_duplicate_copy,refunds,
+R0000521,O0005408,2024-04-27,10060.41,Late delivery,579,exact_duplicate_copy,refunds,
+R0000295,O0002991,2024-02-02,12491.27,Wrong item,296,missing_or_unmatched_order_reference,refunds,2024-02-02
+R0000395,O0004123,2024-02-08,33651.95,Damaged,396,refund_exceeds_remaining_net_sales:185557c,refunds,2024-02-08
+R0000001,O0000003,2024-02-15,-15.00,Changed mind,2,missing_id_invalid_date_or_nonpositive_refund,refunds,2024-02-15
+R0000381,O0003854,2024-02-16,16353.24,Damaged,382,refund_for_order_with_incomplete_financials,refunds,2024-02-16
+R0000195,O0002127,2024-02-17,32266.58,Late delivery,196,refund_for_order_with_incomplete_financials,refunds,2024-02-17
+R0000257,O0002626,2024-02-19,39405.44,Changed mind,258,refund_for_order_with_incomplete_financials,refunds,2024-02-19
+R0000144,O0001478,2024-02-27,46649.13,Wrong item,145,refund_exceeds_remaining_net_sales:1633354c,refunds,2024-02-27
+R0000258,O0002626,2024-02-27,22045.44,Late delivery,259,refund_for_order_with_incomplete_financials,refunds,2024-02-27
+R0000380,O0003854,2024-03-02,34046.00,Wrong item,381,refund_for_order_with_incomplete_financials,refunds,2024-03-02
+R0000196,O0002127,2024-03-06,19853.41,Wrong item,197,refund_for_order_with_incomplete_financials,refunds,2024-03-06
+R0000522,O0005416,2024-03-13,31394.69,Damaged,523,refund_exceeds_remaining_net_sales:295681c,refunds,2024-03-13
+R0000281,O0002856,2024-03-21,1434.34,Damaged,282,refund_for_order_with_incomplete_financials,refunds,2024-03-21
+R0000559,O0005833,2024-03-27,19568.76,Wrong item,560,missing_or_unmatched_order_reference,refunds,2024-03-27
+R0000037,O0000368,2024-04-10,3329.84,Wrong item,38,refund_for_order_with_incomplete_financials,refunds,2024-04-10
+R0000261,O0002681,2024-04-15,35877.76,Wrong item,262,refund_exceeds_remaining_net_sales:610614c,refunds,2024-04-15
+R0000458,O0004680,2024-04-15,98829.47,Late delivery,459,refund_for_order_with_incomplete_financials,refunds,2024-04-15
+R0000038,O0000368,2024-05-10,3344.55,Late delivery,39,refund_for_order_with_incomplete_financials,refunds,2024-05-10
+R0000293,O0002988,2024-05-12,22387.69,Damaged,294,refund_for_order_with_incomplete_financials,refunds,2024-05-12
+R0000294,O0002988,2024-05-18,14316.46,Changed mind,295,refund_for_order_with_incomplete_financials,refunds,2024-05-18
+R0000412,O0004300,2024-06-02,60051.72,Damaged,413,refund_for_order_with_incomplete_financials,refunds,2024-06-02
+R0000025,O0000235,2024-06-05,792.12,Changed mind,26,refund_exceeds_remaining_net_sales:9023c,refunds,2024-06-05
+R0000327,O0003301,2024-06-07,7988.45,Late delivery,328,refund_exceeds_remaining_net_sales:122272c,refunds,2024-06-07
+R0000549,O0005729,2024-06-28,45892.50,Damaged,550,refund_exceeds_remaining_net_sales:1056178c,refunds,2024-06-28
+R0000246,O0002552,2024-07-04,13459.35,Late delivery,247,refund_for_order_with_incomplete_financials,refunds,2024-07-04
+R0000226,O0002371,2024-07-07,66926.62,Late delivery,227,refund_exceeds_remaining_net_sales:1724058c,refunds,2024-07-07
+R0000531,O0005495,2024-07-09,7606.76,Wrong item,532,refund_for_order_with_incomplete_financials,refunds,2024-07-09
+R0000074,O0000826,2024-07-15,9245.35,Late delivery,75,refund_for_order_with_incomplete_financials,refunds,2024-07-15
+R0000004,O0000026,2024-08-05,21429.92,Wrong item,5,refund_for_order_with_incomplete_financials,refunds,2024-08-05
+R0000058,O0000615,2024-08-15,35062.13,Wrong item,59,refund_for_order_with_incomplete_financials,refunds,2024-08-15
+R0000059,O0000615,2024-08-25,31768.29,Late delivery,60,refund_for_order_with_incomplete_financials,refunds,2024-08-25
+R0000260,O0002652,2024-09-03,55571.94,Damaged,261,refund_exceeds_remaining_net_sales:4382c,refunds,2024-09-03
+R0000050,O0000531,2024-09-09,55182.34,Changed mind,51,refund_exceeds_remaining_net_sales:34130c,refunds,2024-09-09
+R0000574,O0005994,2024-10-13,7259.66,Wrong item,575,refund_for_order_with_incomplete_financials,refunds,2024-10-13
+R0000006,O0000062,2024-11-01,18569.05,Late delivery,7,refund_exceeds_remaining_net_sales:195364c,refunds,2024-11-01
+R0000160,O0001655,2024-11-04,54247.80,Damaged,161,refund_exceeds_remaining_net_sales:378917c,refunds,2024-11-04
+R0000138,O0001384,2024-11-13,5324.23,Late delivery,139,refund_exceeds_remaining_net_sales:44865c,refunds,2024-11-13
+R0000491,O0005059,2024-11-20,27522.86,Late delivery,492,refund_for_order_with_incomplete_financials,refunds,2024-11-20
+R0000126,O0001233,2024-11-21,85256.37,Damaged,127,refund_for_order_with_incomplete_financials,refunds,2024-11-21
+R0000127,O0001233,2024-11-25,37612.42,Late delivery,128,refund_for_order_with_incomplete_financials,refunds,2024-11-25
+R0000190,O0002073,2024-12-11,2194.87,Late delivery,191,refund_exceeds_remaining_net_sales:101238c,refunds,2024-12-11
+R0000017,O0000132,2024-12-12,15224.58,Wrong item,18,refund_exceeds_remaining_net_sales:210029c,refunds,2024-12-12
+R0000493,O0005088,2025-01-11,29714.41,Wrong item,494,refund_exceeds_remaining_net_sales:45907c,refunds,2025-01-11
+R0000496,O0005154,2025-01-14,53203.98,Wrong item,497,refund_for_order_with_incomplete_financials,refunds,2025-01-14
+R0000440,O0004486,2025-01-25,13756.58,Wrong item,441,refund_for_order_with_incomplete_financials,refunds,2025-01-25
+R0000009,O0000079,2025-02-15,65219.72,Changed mind,10,refund_exceeds_remaining_net_sales:350677c,refunds,2025-02-15
+R0000042,O0000424,2025-02-23,60921.69,Changed mind,43,refund_exceeds_remaining_net_sales:285606c,refunds,2025-02-23
+R0000466,O0004772,2025-03-08,16195.46,Wrong item,467,refund_exceeds_remaining_net_sales:59954c,refunds,2025-03-08
+R0000575,O9999999,2025-03-10,250.00,Orphan test record,576,missing_or_unmatched_order_reference,refunds,2025-03-10
+R0000157,O0001646,2025-03-13,49039.84,Wrong item,158,refund_exceeds_remaining_net_sales:308400c,refunds,2025-03-13
+R0000211,O0002228,2025-03-16,3207.69,Wrong item,212,refund_exceeds_remaining_net_sales:4305c,refunds,2025-03-16
+R0000449,O0004560,2025-03-22,49137.46,Damaged,450,refund_for_order_with_incomplete_financials,refunds,2025-03-22
+R0000399,O0004160,2025-03-30,27198.17,Changed mind,400,refund_for_order_with_incomplete_financials,refunds,2025-03-30
+R0000483,O0004932,2025-04-27,111413.52,Wrong item,484,refund_for_order_with_incomplete_financials,refunds,2025-04-27
+R0000169,O0001745,2025-05-02,12763.61,Damaged,170,refund_exceeds_remaining_net_sales:330886c,refunds,2025-05-02
+R0000174,O0001805,2025-05-08,69286.76,Changed mind,175,refund_for_order_with_incomplete_financials,refunds,2025-05-08
+R0000420,O0004353,2025-05-28,16620.66,Changed mind,421,refund_exceeds_remaining_net_sales:341356c,refunds,2025-05-28
+R0000082,O0000875,2025-06-07,47445.92,Wrong item,83,refund_for_order_with_incomplete_financials,refunds,2025-06-07
+R0000081,O0000875,2025-06-17,21869.69,Late delivery,82,refund_for_order_with_incomplete_financials,refunds,2025-06-17
+R0000119,O0001163,2025-06-24,33621.12,Changed mind,120,refund_exceeds_remaining_net_sales:396925c,refunds,2025-06-24
+R0000016,O0000113,2025-07-04,84563.23,Wrong item,17,refund_for_order_with_incomplete_financials,refunds,2025-07-04
+R0000217,O0002276,2025-08-07,48668.05,Damaged,218,refund_exceeds_remaining_net_sales:225954c,refunds,2025-08-07
+R0000109,O0001096,2025-09-16,51417.84,Late delivery,110,refund_exceeds_remaining_net_sales:167540c,refunds,2025-09-16
+R0000136,O0001351,2025-09-21,23990.73,Wrong item,137,refund_exceeds_remaining_net_sales:125719c,refunds,2025-09-21
+R0000177,O0001850,2025-09-26,47100.47,Damaged,178,refund_for_order_with_incomplete_financials,refunds,2025-09-26
+R0000101,O0001028,2025-10-11,12875.05,Late delivery,102,refund_for_order_with_incomplete_financials,refunds,2025-10-11
+R0000315,O0003146,2025-10-12,89898.97,Changed mind,316,refund_exceeds_remaining_net_sales:478720c,refunds,2025-10-12
+R0000100,O0001028,2025-10-15,22790.10,Changed mind,101,refund_for_order_with_incomplete_financials,refunds,2025-10-15
+R0000401,O0004186,2025-10-18,5590.90,Wrong item,402,refund_for_order_with_incomplete_financials,refunds,2025-10-18
+R0000402,O0004186,2025-10-30,14309.53,Damaged,403,refund_for_order_with_incomplete_financials,refunds,2025-10-30
+R0000451,O0004579,2025-11-14,4095.84,Wrong item,452,refund_exceeds_remaining_net_sales:96518c,refunds,2025-11-14
+R0000035,O0000337,2025-11-18,33765.36,Wrong item,36,refund_for_order_with_incomplete_financials,refunds,2025-11-18
+R0000405,O0004231,2025-11-25,33005.04,Wrong item,406,refund_exceeds_remaining_net_sales:132910c,refunds,2025-11-25
+R0000475,O0004863,2025-12-11,3776.67,Wrong item,476,refund_for_order_with_incomplete_financials,refunds,2025-12-11
+R0000504,O0005269,2025-12-17,34148.06,Late delivery,505,refund_for_order_with_incomplete_financials,refunds,2025-12-17
+R0000476,O0004863,2025-12-27,5557.55,Damaged,477,refund_for_order_with_incomplete_financials,refunds,2025-12-27
+R0000328,O0003306,2026-01-23,7245.43,Late delivery,329,refund_for_order_with_incomplete_financials,refunds,2026-01-23

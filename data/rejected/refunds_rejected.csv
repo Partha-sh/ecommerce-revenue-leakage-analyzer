@@ -1,0 +1,6 @@
+source_row_number,rejection_reasons,refund_id,order_id,refund_date,refund_amount,reason
+2,invalid_refund_amount,R0000001,O0000003,2024-02-15,-15.00,Changed mind
+576,missing_or_unmatched_order,R0000575,O9999999,2025-03-10,250.00,Orphan test record
+577,exact_duplicate_copy,R0000255,O0002596,2025-06-25,30787.30,Changed mind
+578,exact_duplicate_copy,R0000020,O0000151,2024-09-30,20989.99,Late delivery
+579,exact_duplicate_copy,R0000521,O0005408,2024-04-27,10060.41,Late delivery

@@ -1,0 +1,85 @@
+{
+  "validation_status": "PASS",
+  "seed": 20261121,
+  "requested_orders": 6000,
+  "actual_orders_including_duplicate_rows": 6012,
+  "dataset_statistics": {
+    "customers.csv": {
+      "records": 1503,
+      "duplicate_rows": 3,
+      "missing_cells": 15
+    },
+    "products.csv": {
+      "records": 101,
+      "duplicate_rows": 1,
+      "missing_cells": 3
+    },
+    "orders.csv": {
+      "records": 6012,
+      "duplicate_rows": 12,
+      "missing_cells": 3714
+    },
+    "order_items.csv": {
+      "records": 15018,
+      "duplicate_rows": 20,
+      "missing_cells": 0
+    },
+    "discounts.csv": {
+      "records": 16,
+      "duplicate_rows": 1,
+      "missing_cells": 0
+    },
+    "refunds.csv": {
+      "records": 578,
+      "duplicate_rows": 3,
+      "missing_cells": 0
+    },
+    "deliveries.csv": {
+      "records": 4178,
+      "duplicate_rows": 6,
+      "missing_cells": 0
+    }
+  },
+  "foreign_key_findings": {
+    "orders_customer_missing_or_unmatched": 51,
+    "order_items_order_missing_or_unmatched": 0,
+    "order_items_product_missing_or_unmatched": 23,
+    "orders_discount_missing_or_unmatched": 0,
+    "refunds_order_missing_or_unmatched": 1,
+    "deliveries_order_missing_or_unmatched": 1
+  },
+  "invalid_record_findings": {
+    "negative_or_zero_product_prices": 1,
+    "missing_or_nonpositive_product_costs": 4,
+    "nonpositive_item_quantities": 14,
+    "negative_item_prices": 11,
+    "invalid_discount_percentages": 2,
+    "invalid_order_dates": 6,
+    "inconsistent_or_unknown_statuses": 19,
+    "negative_refund_amounts": 1,
+    "invalid_delivery_dates": 0
+  },
+  "checks": {
+    "all_seven_files_present": true,
+    "order_volume_within_target": true,
+    "all_expected_data_quality_categories_observed": true,
+    "order_item_order_relationships_valid": true,
+    "intentional_defect_counts_are_reported": true
+  },
+  "intentional_issue_notes": [
+    "Exact duplicate rows are appended in each source family to exercise deduplication.",
+    "Blank customer email, product costs, and one order customer reference exercise missing-value handling.",
+    "A small number of customer, product, refund, and delivery references are intentionally unmatched.",
+    "Invalid product/item prices, costs, quantities, discount percentages, order dates/statuses, and refund amounts are intentional.",
+    "Order status spelling/case variants and mixed valid date formats are intentional standardization cases.",
+    "Refund transactions are independent rows; the same order may have multiple partial-refund rows."
+  ],
+  "relationship_logic": {
+    "orders.customer_id": "customers.customer_id (many orders to one customer)",
+    "order_items.order_id": "orders.order_id (many items to one order)",
+    "order_items.product_id": "products.product_id (many item rows to one product)",
+    "orders.discount_code": "discounts.discount_code (zero or one campaign per order)",
+    "refunds.order_id": "orders.order_id (zero to many refund transactions per order)",
+    "deliveries.order_id": "orders.order_id (zero or one delivery per order in generated data)"
+  }
+}

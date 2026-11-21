@@ -1,0 +1,7 @@
+source_row_number,rejection_reasons,product_id,product_name,category,unit_price,unit_cost,active
+2,missing_or_invalid_unit_cost,P0001,Product 001,Beauty,16654.32,-25.00,true
+3,invalid_unit_price,P0002,Product 002,Books,-99.00,480.42,true
+18,missing_or_invalid_unit_cost,P0017,Product 017,Sports,2173.61,,true
+59,missing_or_invalid_unit_cost,P0058,Product 058,Fashion,16922.18,,true
+93,missing_or_invalid_unit_cost,P0092,Product 092,Home,19530.00,,true
+102,exact_duplicate_copy,P0034,Product 034,Fashion,3737.10,2543.49,true

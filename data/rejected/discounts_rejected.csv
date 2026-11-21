@@ -1,0 +1,4 @@
+source_row_number,rejection_reasons,discount_code,campaign_name,discount_pct,start_date,end_date
+2,invalid_discount_percentage,SAVE01,Campaign 01,125.00,2024-01-01,2024-03-01
+3,invalid_discount_percentage,SAVE02,Campaign 02,-5.00,2024-01-26,2024-03-26
+17,exact_duplicate_copy,SAVE08,Campaign 08,20.00,2024-06-24,2024-08-23

@@ -1,0 +1,8 @@
+dataset_name,total_records,duplicate_count,missing_value_count,invalid_record_count,quarantined_record_count,quality_score,recommended_action
+customers,1503,3,15,0,3,99.8,Review quarantined rows; retain valid records; inspect blanks and distinguish optional from required fields
+products,101,1,3,5,6,94.06,Review quarantined rows; retain valid records; inspect blanks and distinguish optional from required fields
+orders,6012,12,3714,75,87,98.55,Review quarantined rows; retain valid records; inspect blanks and distinguish optional from required fields
+order_items,15018,20,0,48,68,99.55,Review quarantined rows; retain valid records
+discounts,16,1,0,2,3,81.25,Review quarantined rows; retain valid records
+refunds,578,3,0,2,5,99.13,Review quarantined rows; retain valid records
+deliveries,4178,6,0,1,7,99.83,Review quarantined rows; retain valid records

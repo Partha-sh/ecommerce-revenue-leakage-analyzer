@@ -1,0 +1,4 @@
+customer_id,first_name,last_name,email,city,region,signup_date,source_row_number,rejection_reason,source_dataset
+C00508,Customer508,Das,customer508@example.com,Delhi,South,2021-12-21,1502,exact_duplicate_copy,customers
+C01427,Customer1427,Khan,customer1427@example.com,Pune,North,2023-06-16,1503,exact_duplicate_copy,customers
+C00956,Customer956,Iyer,customer956@example.com,Pune,West,2023-09-12,1504,exact_duplicate_copy,customers

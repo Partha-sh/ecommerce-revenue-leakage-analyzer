@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Generated operational files
+logs/*.log
+reports/*.tmp
+
+# Editor and OS files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
